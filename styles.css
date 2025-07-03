@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Figtree", sans-serif;
+    font-size: 16px;
+    background: hsl(47, 88%, 63%);
+}
+main {
+    background-color: hsl(0, 0%, 100%);
+    width: 375px;
+    height: auto;
+    display: flex;
+    box-shadow:  8px 8px 0px rgb(0, 0, 0);
+    justify-content: center;
+    border-radius: 25px;
+
+}
+
+#conteudo {
+    display: flex;
+    flex-flow: column wrap;
+    
+    padding: 15px;
+    gap: 15px;
+}
+#img-article {
+    border-radius: 20px;
+}
+#conteudo-principal {
+    border: 1px solid red;
+    display: flex;
+    width: 100%;
+    flex-flow: column wrap;
+    
+    gap: 12px;
+    
+}
+#palavra-destaque {
+    padding: 6px;
+    background-color:  hsl(47, 88%, 63%);
+    width: 80px;
+    border-radius: 4px;
+    font-weight: 800;
+}
+#data {
+    color: hsl(0, 0%, 7%);
+    font-weight: 500;
+}
+h3 {
+    font-weight: 800;
+    
+}
+#frase {
+    color: hsl(0, 0%, 42%);
+}
+#redeSocial {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    gap: 20px;
+
+}
+#NomePessoa {
+    font-weight: 800;
+}
