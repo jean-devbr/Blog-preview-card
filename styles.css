@@ -36,7 +36,7 @@ main {
     border-radius: 20px;
 }
 #conteudo-principal {
-    border: 1px solid red;
+    
     display: flex;
     width: 100%;
     flex-flow: column wrap;
